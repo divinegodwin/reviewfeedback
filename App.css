@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+#container {
+  background-color: #212832;
+  width: 320px;
+  height: 400px;
+  margin-top: 7rem;
+  border-radius: 20px;
+ 
+}
+
+.icon-div {
+  padding-top: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  float: left;
+  background-color: #262f38;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#icon {
+  color: #f27c29;
+  margin-top: -1.8rem;
+  position: relative;
+  float: left;
+  margin-left: 2px;
+
+}
+
+h1{
+  margin-top: 4rem;
+  left: 0;
+  margin-left: none;
+  margin-left: -3.5rem;
+  color: #fff;
+}
+
+.text1 {
+
+  margin-left: none;
+  margin-left: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+  color: #737a84;
+  font-size: 11.8px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+#btn {
+  width: 50px;
+  height: 50px;
+  background: #262f38;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  outline: none;
+
+}
+
+.btn:hover {
+  background: #f27c29;
+  animation: 2s;
+}
+
+.btn:focus{
+  background:#f27c29;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.submit {
+  width: 290px;
+  border: none;
+  outline: none;
+  background: #f27c29;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+
+}
+
+.submit:hover {
+  color: #f27c29;
+  background: #fff;
+}
+
+
+#container-2 {
+  background-color: #212832;
+  width: 320px;
+  height: 400px;
+  margin-top: 7rem;
+  border-radius: 20px;
+  position: relative;
+  display:none;
+}
+
+.result {
+  color: #f27c29;
+  background: #262f38;
+  height: 30px;
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+
+.result-container {
+  margin-top: 1rem;
+}
+
+.image2 {
+  width: 150px;
+  height: 150px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.thank-you {
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.text2 {
+  margin-left: none;
+  margin-left: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+  color: #737a84;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+}
